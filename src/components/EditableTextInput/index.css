@@ -1,0 +1,62 @@
+.bg-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.editable-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  padding-top: 10px;
+}
+.input-container {
+  display: flex;
+  margin: 20px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.input-element {
+  width: 250px;
+  height: 25px;
+  margin-right: 10px;
+  border: 2px solid #cbd2d9;
+  padding-left: 5px;
+  color: #323f4b;
+  outline: none;
+}
+@media screen and (max-with: 600px) {
+  .input-element {
+    width: 150px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
+.btn {
+  background-color: #d946ef;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+.edit {
+  width: 250px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.para-text {
+  width: 200px;
+  text-align: center;
+}
+.btn-2 {
+  padding: 5px 10px;
+}
